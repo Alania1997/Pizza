@@ -1,7 +1,30 @@
 h1 {
-    font-size: 32px;
+    font-size: 28px;
+    color: #ed8936;
 }
 
-p {
-    font-size: 18px;
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input,
+textarea {
+    margin: 10px 0;
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    background-color: #38a169;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2f855a;
 }

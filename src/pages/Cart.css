@@ -17,14 +17,22 @@ li {
 }
 
 button {
-    margin-left: 10px;
+    margin-left: 5px;
     padding: 5px 10px;
-    background-color: #ef4444;
+    background-color: #38a169;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
+    background-color: #2f855a;
+}
+
+.remove-btn {
+    background-color: #ef4444;
+}
+
+.remove-btn:hover {
     background-color: #dc2626;
 }
