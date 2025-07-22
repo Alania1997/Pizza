@@ -3,6 +3,7 @@ import './App.css';
 import Home from './pages/Home';
 import Cart from './pages/Cart';
 import Contacts from './pages/Contacts';
+import Menu from './pages/Menu';
 import OrderConfirmation from './pages/OrderConfirmation';
 
 function App() {
@@ -12,16 +13,17 @@ function App() {
         <nav>
           <ul>
             <li><Link to="/">Home</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
             <li><Link to="/cart">Cart</Link></li>
             <li><Link to="/contacts">Contacts</Link></li>
-            <li><Link to="/orderconfirmation">OrderConfirmatio</Link></li>
           </ul>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/menu" element={<Menu />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/contacts" element={<Contacts />} />
-          <Route path="/orderconfirmation" element={<OrderConfirmation />} />
+          <Route path="/order-confirmation" element={<OrderConfirmation />} />
         </Routes>
       </div>
     </Router>

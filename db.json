@@ -1,0 +1,44 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Margherita Pizza",
+      "price": 10.99,
+      "description": "Classic pizza with tomato, mozzarella, and basil.",
+      "image": "/images/Margarita.avif",
+      "category": "pizzas"
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni Pizza",
+      "price": 12.99,
+      "description": "Spicy pepperoni with extra cheese.",
+      "image": "/images/Pepperoni Pizza.jpg",
+      "category": "pizzas"
+    },
+    {
+      "id": 3,
+      "name": "Cheeseburger",
+      "price": 8.99,
+      "description": "Juicy beef patty with cheese.",
+      "image": "https://via.placeholder.com/150?text=Cheeseburger",
+      "category": "burgers"
+    },
+    {
+      "id": 4,
+      "name": "Coca-Cola",
+      "price": 2.99,
+      "description": "Refreshing carbonated drink.",
+      "image": "https://via.placeholder.com/150?text=Coca-Cola",
+      "category": "drinks"
+    },
+    {
+      "id": 5,
+      "name": "Spicy Wings",
+      "price": 7.99,
+      "description": "Hot and spicy chicken wings.",
+      "image": "https://via.placeholder.com/150?text=Spicy+Wings",
+      "category": "wings"
+    }
+  ]
+}
