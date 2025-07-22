@@ -11,9 +11,17 @@
     {
       "id": 2,
       "name": "Pepperoni Pizza",
-      "price": 12.99,
+      "price": 10.99,
       "description": "Spicy pepperoni with extra cheese.",
       "image": "/images/Pepperoni Pizza.jpg",
+      "category": "pizzas"
+    },
+    {
+      "id": 3,
+      "name": "Pepperoni Pizza Original",
+      "price": 12.99,
+      "description": "Spicy pepperoni.",
+      "image": "/images/Pepperoni Pizza Original.jpg",
       "category": "pizzas"
     },
     {
@@ -21,15 +29,15 @@
       "name": "Cheeseburger",
       "price": 8.99,
       "description": "Juicy beef patty with cheese.",
-      "image": "https://via.placeholder.com/150?text=Cheeseburger",
+      "image": "./images/Cheeseburger.png",
       "category": "burgers"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Coca-Cola",
       "price": 2.99,
       "description": "Refreshing carbonated drink.",
-      "image": "https://via.placeholder.com/150?text=Coca-Cola",
+      "image": "./images/cola.jpg",
       "category": "drinks"
     },
     {
@@ -37,7 +45,7 @@
       "name": "Spicy Wings",
       "price": 7.99,
       "description": "Hot and spicy chicken wings.",
-      "image": "https://via.placeholder.com/150?text=Spicy+Wings",
+      "image": "./images/Spicy Wings.jpg",
       "category": "wings"
     }
   ]
