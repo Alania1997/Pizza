@@ -5,6 +5,7 @@ import Cart from './pages/Cart';
 import Contacts from './pages/Contacts';
 import Menu from './pages/Menu';
 import OrderConfirmation from './pages/OrderConfirmation';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,10 +13,10 @@ function App() {
       <div className="app">
         <nav>
           <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/menu">Menu</Link></li>
-            <li><Link to="/cart">Cart</Link></li>
-            <li><Link to="/contacts">Contacts</Link></li>
+            <li><Link to="/">Главная</Link></li>
+            <li><Link to="/menu">Меню</Link></li>
+            <li><Link to="/cart">Корзина</Link></li>
+            <li><Link to="/contacts">Контакты</Link></li>
           </ul>
         </nav>
         <Routes>
@@ -25,6 +26,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           <Route path="/order-confirmation" element={<OrderConfirmation />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
